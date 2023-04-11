@@ -1,0 +1,14 @@
+public class Main
+{
+	public static void main(String[] args) {
+		double now = System.currentTimeMillis();
+		Main demo = new Main();
+		System.out.println(demo.findSum(999999));
+		System.out.println("Time taken - "+(System.currentTimeMillis()-now)+"Millisecs");
+		
+	}
+	public int findSum(int n)
+	{
+	    return n*(n+1)/2;
+	}
+}
